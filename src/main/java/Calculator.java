@@ -1,27 +1,21 @@
 public class Calculator {
-
-    public String add;
-    public String subtract;
-    public String multiply;
-    private String divide;
-
-    public Calculator(String add, String subtract, String multiply, String divide){
-        this.add = add;
+    public Calculator() {
     }
 
-    public String getAdd(){
-        return add;
+    public int add(int firstNumber, int secondNumber){
+        return firstNumber + secondNumber;
     }
 
-    public String getSubtract(){
-        return subtract;
+    public int subtract(int firstNumber, int secondNumber){
+        return firstNumber - secondNumber;
     }
 
-    public String getMultiply(){
-        return multiply;
+    public int multiply(int firstNumber, int secondNumber){
+        return firstNumber * secondNumber;
     }
 
-    public double getDivide(){
-        return divide;
+    public double divide(double num1, double num2){
+        return num1 / num2;
     }
 }
+
